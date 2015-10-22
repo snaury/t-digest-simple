@@ -3,6 +3,7 @@
 #include <cmath>
 #include <cstdint>
 #include <vector>
+#include <algorithm>
 
 class MergingTDigest {
 public:
