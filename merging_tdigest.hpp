@@ -41,7 +41,7 @@ private:
     }
 
 public:
-    MergingTDigest(double compression = 100, size_t max_buffer_size = 8192)
+    MergingTDigest(double compression = 100, size_t max_buffer_size = 2048)
       : epsilon_(1.0 / compression)
       , max_buffer_size_(max_buffer_size)
       , buffer_size_(0)
